@@ -14,11 +14,16 @@ Asegúrate de tener instalado lo siguiente:
 ## Instalación y Configuración
 
 ### 1. Dependencias
-- composer install
-- npm install
+-     composer install
+-     npm install
 ### 2. Firebase
 
 Crea una carpeta y coloca ahí tus credencias en JSON
 
-- storage/firebase/credential_firebase.json
+-     storage/firebase/credential_firebase.json
 
+### 3. Adicionales
+- **Instalar PHP 8.2.26**: https://windows.php.net/download
+- **Descargar y habilitar Cacert en php.ini**:
+-     https://curl.se/docs/caextract.html
+-     curl.cainfo = "C:\laragon\bin\php\php-8.2.26-nts-Win32-vs16-x64\cacert.pem"
